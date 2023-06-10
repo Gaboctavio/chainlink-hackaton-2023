@@ -56,4 +56,5 @@ The smart contract is called upon with Postman, with the following steps:
 2. The API then calls the smart contract through Postman.
 3. Postman calls the address through the API made specifically for this project. 
 
-![Architecture scheme](https://ibb.co/Pg5mKzB)
+![hackaton drawio](https://github.com/Gaboctavio/chainlink-hackaton-2023/assets/136098997/88f8236e-3a5b-4612-b6ca-0e13c47843bc)
+
