@@ -11,8 +11,6 @@
 
 **This project** is intended to create an authorization scheme for users and their multiple files that they want to keep stored on an off-chain server, while encrypted and made sure that key information is stored in the blockchain. 
 
-~~This project is found in the [Chainlink Hackathon devpost.](https://www.google.com)~~
-
 ## Overall scheme
 
 ### Owners of files can grant/revoke access to their files for users under different roles
@@ -47,15 +45,6 @@ A user will pass through the following steps in order to ensure a correct use of
 6. The application generates a ***hash*** value of the registered data.
 7. The application stores the hash of the data and its location.
 8. The data may be downloaded for use by an allowed user (may them be a writer or reader). For this, the data must be decrypted using the Owner's public key.
-
-### Technical information (code processes)
-
-The smart contract is called upon with Postman, with the following steps:
-
-1. The API is called upon, which waits for transactions from a User. Postman will simulate these transactions.
-2. The API then calls the smart contract through Postman.
-3. Postman calls the address through the API made specifically for this project. 
-
 
 ### The architecture of the scheme 
 ![architecture_scheme](https://github.com/Gaboctavio/chainlink-hackaton-2023/assets/136098997/88f8236e-3a5b-4612-b6ca-0e13c47843bc)
